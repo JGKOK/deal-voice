@@ -83,6 +83,11 @@ ALTER TABLE audio_files ADD COLUMN last_processed_at TIMESTAMP NULL COMMENT '最
 ### 扫描指定目录下的语音文件并且调用deal_voice_api.py的api接口进行语音文件解析
 
 
-# 文件名： 
+# 文件名： voice_feellling.py
+## 实现功能
+### 解析语音文件并且识别说话人情绪
+
+## 集成模型
+### emotion2vec_plus_large 情感分析模型
 
 
